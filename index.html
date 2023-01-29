@@ -2,6 +2,7 @@
 <html lang="en-US">
   <head>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <script src="js/scripts.js"></script>
   </head>
   <title>Programming Language Selector</title>
@@ -11,7 +12,7 @@
       <p>
         Complete this survey to help you find the right programming language for you!
       </p>
-      <p>It's between Ruby, C#, Python, and Swift! </p>
+      <h3>It's between Ruby, C#, Python, and Swift! </h3>
     </div>
     <div>
       <form id="user-info">
@@ -19,72 +20,60 @@
           Sorry! Doesn't look like there's a language right for you :-(
         </p>
       </form>
-      <div id="pet">
+      <div>
         <form id="user-info">
-          <p>Which house pet do you prefer></p>
-          <input type="radio" name="choice" value="cat"> Cat
-          <input type="radio" name="choice" value="dog"> Dog
-          <input type="radio" name="choice" value="guinea-pig"> Guinea Pig
-          <input type="radio" name="choice" value="hamster"> Hamster
-          <input type="radio" name="choice" value="gold-fish"> Gold Fish
-        </form>
-      </div> 
-      <div id="outdoor">
-        <form id="user-info">
+          <p>Which house pet do you prefer?</p>
+          <input id="user-info" type="radio"  name="choice" value="cat"> Cat
+          <input id="user-info" type="radio" name="choice" value="dog"> Dog
+          <input id="user-info" type="radio" name="choice" value="guinea-pig"> Guinea Pig
+          <input id="user-info" type="radio" name="choice" value="hamster"> Hamster
+          <input id="user-info" type="radio" name="choice" value="gold-fish"> Gold Fish
+    
           <p>What is your favorite outdoor activity?</p>
-          <input type="radio" name="choice" value="snowboard">Snowboarding
-          <input type="radio" name="choice" value="hiking">Hiking
-          <input type="radio" name="choice" value="surfing">Surfing
-          <input type="radio" name="choice" value="golf">Golfing
-          <input type="radio" name="choice" value="volleyball">Volleyball
-        </form>
-      </div>  
-      <div id="food">
-        <form id="user-info">
+          <input id="outdoor" type="radio" name="choice" value="snowboard">Snowboarding
+          <input id="outdoor" type="radio" name="choice" value="hiking">Hiking
+          <input id="outdoor" type="radio" name="choice" value="surfing">Surfing
+          <input id="outdoor" type="radio" name="choice" value="golf">Golfing
+          <input id="outdoor" type="radio" name="choice" value="volleyball">Volleyball
+
           <p>What is your favorite type of food?</p>
-          <input type="radio" name="choice" value="mexican">Mexican
-          <input type="radio" name="choice" value="italian">Italian 
-          <input type="radio" name="choice" value="chinese">Chinese 
-          <input type="radio" name="choice" value="thai">Thai Food
-          <input type="radio" name="choice" value="indian">Indian 
-        </form>
-      </div>
-      <div id="travel">
-        <form id="user-info">
+          <input id="food" type="radio" name="choice" value="mexican">Mexican
+          <input id="food" type="radio" name="choice" value="italian">Italian 
+          <input id="food" type="radio" name="choice" value="chinese">Chinese 
+          <input id="food" type="radio" name="choice" value="thai">Thai Food
+          <input id="food" type="radio" name="choice" value="indian">Indian 
+
           <p>What place would you prefer to travel to?</p>
-          <input type="radio" name="choice" value="japan">Japan
-          <input type="radio" name="choice" value="greece">Greece 
-          <input type="radio" name="choice" value="hawaii">Hawaii 
-          <input type="radio" name="choice" value="ireland">Ireland 
-          <input type="radio" name="choice" value="new-zealand">New Zealand 
+          <input id="travel" type="radio" name="choice" value="japan">Japan
+          <input id="travel" type="radio" name="choice" value="greece">Greece 
+          <input id="travel" type="radio" name="choice" value="hawaii">Hawaii 
+          <input id="travel" type="radio" name="choice" value="ireland">Ireland 
+          <input id="travel" type="radio" name="choice" value="new-zealand">New Zealand 
+
+          <p>Which super power would you like to have?</p>
+          <input id="super-power" type="radio" name="choice" value="mind-control">Mind Control 
+          <input id="super-power" type="radio" name="choice" value="flying">Flying 
+          <input id="super-power" type="radio" name="choice" value="invisibility">Invisibility 
+          <input id="super-power" type="radio" name="choice" value="telepathy">Telepathy 
+          <input id="super-power" type="radio" name="choice" value="telekinesis">Telekinesis 
+          <p>
+            <button id="submit">
+            Submit Survey!
+            </button>
+          </p>
         </form>
       </div>
-      <div id="super-power">
-        <form id="user-info">
-          <p>Which super power would you like to have></p>
-          <input type="radio" name="choice" value="mind-control">Mind Control 
-          <input type="radio" name="choice" value="flying">Flying 
-          <input type="radio" name="choice" value="invisibility">Invisibility 
-          <input type="radio" name="choice" value="telepathy">Telepathy 
-          <input type="radio" name="choice" value="telekinesis">Telekinesis 
-        </form>
-      </div>  
-      <form id="user-info">
-        <button id="submit">
-          Submit Survey!
-        </button>
-      </form>
       <div id="ruby" class="hidden">
-        <p>Ruby is the language for you! According to thi survey, this language best suits you. Best of luck!</p>
+        <p>Ruby is the language for you! According to this survey, this language best suits you. Best of luck!</p>
       </div>
       <div id="c#" class="hidden">
-        <p>C# is the language for you! According to thi survey, this language best suits you. Best of luck!</p>
+        <p>C# is the language for you! According to this survey, this language best suits you. Best of luck!</p>
       </div>
       <div id="python" class="hidden">
-        Python is the language for you! According to thi survey, this language best suits you. Best of luck!
+        Python is the language for you! According to this survey, this language best suits you. Best of luck!
       </div>
       <div id="Swift" class="hidden">
-        <p>Swift is the language for you! According to thi survey, this language best suits you. Best of luck!</p>
+        <p>Swift is the language for you! According to this survey, this language best suits you. Best of luck!</p>
       </div>
     </div>
   </body>

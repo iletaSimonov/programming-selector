@@ -1,3 +1,8 @@
 .hidden {
   display: none;
 }
+
+button {
+  margin: auto;
+  padding: 7px;
+}
