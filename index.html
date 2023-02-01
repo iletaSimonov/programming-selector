@@ -23,39 +23,37 @@
       <div>
         <form id="user-info">
           <p>Which house pet do you prefer?</p>
-          <input id="user-info" type="radio"  name="choice" value="cat"> Cat
-          <input id="user-info" type="radio" name="choice" value="dog"> Dog
-          <input id="user-info" type="radio" name="choice" value="guinea-pig"> Guinea Pig
-          <input id="user-info" type="radio" name="choice" value="hamster"> Hamster
-          <input id="user-info" type="radio" name="choice" value="gold-fish"> Gold Fish
+          <input id="user-info" type="radio"  name="pet" value="cat"> Cat
+          <input id="user-info" type="radio" name="pet" value="dog"> Dog
+          <input id="user-info" type="radio" name="pet" value="hamster"> Hamster
     
           <p>What is your favorite outdoor activity?</p>
-          <input id="outdoor" type="radio" name="choice" value="snowboard">Snowboarding
-          <input id="outdoor" type="radio" name="choice" value="hiking">Hiking
-          <input id="outdoor" type="radio" name="choice" value="surfing">Surfing
-          <input id="outdoor" type="radio" name="choice" value="golf">Golfing
-          <input id="outdoor" type="radio" name="choice" value="volleyball">Volleyball
+          <input id="outdoor" type="radio" name="outdoor" value="snowboard">Snowboarding
+          <input id="outdoor" type="radio" name="outdoor" value="hiking">Hiking
+          <input id="outdoor" type="radio" name="outdoor" value="surfing">Surfing
+          <input id="outdoor" type="radio" name="outdoor" value="golf">Golfing
+          <input id="outdoor" type="radio" name="outdoor" value="volleyball">Volleyball
 
           <p>What is your favorite type of food?</p>
-          <input id="food" type="radio" name="choice" value="mexican">Mexican
-          <input id="food" type="radio" name="choice" value="italian">Italian 
-          <input id="food" type="radio" name="choice" value="chinese">Chinese 
-          <input id="food" type="radio" name="choice" value="thai">Thai Food
-          <input id="food" type="radio" name="choice" value="indian">Indian 
+          <input id="food" type="radio" name="food" value="mexican">Mexican
+          <input id="food" type="radio" name="food" value="italian">Italian 
+          <input id="food" type="radio" name="food" value="chinese">Chinese 
+          <input id="food" type="radio" name="food" value="thai">Thai Food
+          <input id="food" type="radio" name="food" value="indian">Indian 
 
           <p>What place would you prefer to travel to?</p>
-          <input id="travel" type="radio" name="choice" value="japan">Japan
-          <input id="travel" type="radio" name="choice" value="greece">Greece 
-          <input id="travel" type="radio" name="choice" value="hawaii">Hawaii 
-          <input id="travel" type="radio" name="choice" value="ireland">Ireland 
-          <input id="travel" type="radio" name="choice" value="new-zealand">New Zealand 
+          <input id="travel" type="radio" name="travel" value="japan">Japan
+          <input id="travel" type="radio" name="travel" value="greece">Greece 
+          <input id="travel" type="radio" name="travel" value="hawaii">Hawaii 
+          <input id="travel" type="radio" name="travel" value="ireland">Ireland 
+          <input id="travel" type="radio" name="travel" value="new-zealand">New Zealand 
 
           <p>Which super power would you like to have?</p>
-          <input id="super-power" type="radio" name="choice" value="mind-control">Mind Control 
-          <input id="super-power" type="radio" name="choice" value="flying">Flying 
-          <input id="super-power" type="radio" name="choice" value="invisibility">Invisibility 
-          <input id="super-power" type="radio" name="choice" value="telepathy">Telepathy 
-          <input id="super-power" type="radio" name="choice" value="telekinesis">Telekinesis 
+          <input id="super-power" type="radio" name="super-power" value="mind-control">Mind Control 
+          <input id="super-power" type="radio" name="super-power" value="flying">Flying 
+          <input id="super-power" type="radio" name="super-power" value="invisibility">Invisibility 
+          <input id="super-power" type="radio" name="super-power" value="telepathy">Telepathy 
+          <input id="super-power" type="radio" name="super-power" value="telekinesis">Telekinesis 
           <p>
             <button id="submit">
             Submit Survey!
@@ -63,17 +61,10 @@
           </p>
         </form>
       </div>
-      <div id="ruby" class="hidden">
-        <p>Ruby is the language for you! According to this survey, this language best suits you. Best of luck!</p>
-      </div>
-      <div id="c#" class="hidden">
-        <p>C# is the language for you! According to this survey, this language best suits you. Best of luck!</p>
-      </div>
-      <div id="python" class="hidden">
-        Python is the language for you! According to this survey, this language best suits you. Best of luck!
-      </div>
-      <div id="Swift" class="hidden">
-        <p>Swift is the language for you! According to this survey, this language best suits you. Best of luck!</p>
+      <div id="result" class="hidden">
+        <p id="python" class="hidden"> The language that is right for you is PYTHON! Best of luck!</p>
+        <p id="c#" class="hidden"> The language right for you is C#! Best of luck!</p>
+        <p id="ruby" class="hidden"> The laguage right for you is RUBY! Best of luck!</p>
       </div>
     </div>
   </body>

@@ -4,20 +4,54 @@
 
 body {
   margin: 20px;
+  text-align: center;
+  background-color: wheat;
 }
 
 button {
   margin: auto;
   padding: 7px;
   border-radius: 7px;
+  background-color: lavender;
+}
+
+button:hover {
+  background-color: rosybrown;
+  color: lavender;
+}
+
+h1 {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(201, 169, 166);
+  border-radius: 7px;
+}
+
+h3 {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(226, 122, 83, 0.5);
+  border-radius: 7px;
+}
+
+form {
+  font-stretch: expanded;
 }
 
 p {
   margin: 20px;
+  padding: 20px;
+  background-color: rgb(140,157,173);
+  color: white;
+  border-radius: 10px;
 }
 
 input {
   margin: auto;
   padding-bottom: 20px;
+}
+
+input[type="radio"]{
+  margin: 0 10px 0 10px;
 }
 
