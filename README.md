@@ -12,7 +12,7 @@ Technologies used:
 -BootStrap
 
 Description:
-The web page allows you to take a survey asking many personal, but not too personal, questions about themselves in order to curate the right programming language for them.
+The web page allows you to take a survey asking many personal - but not too personal - questions about themselves in order to curate the right programming language for them.
 
 Setup/ Installation requirements:
 -Clone this repository to your desktop.
@@ -20,7 +20,7 @@ Setup/ Installation requirements:
 -Open programming-selector/index.html in your browser.
 
 Known bugs:
-Many known bugs, this project is a work-in-progress.
+Unable to get form to show results to the survey.
 
 License:
 MIT
