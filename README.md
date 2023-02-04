@@ -20,7 +20,7 @@ Setup/ Installation requirements:
 -Open programming-selector/index.html in your browser.
 
 Known bugs:
-Unable to get form to show results to the survey.
+Try Again button will not reset the survey. Just refresh the page to reset.
 
 License:
 MIT
